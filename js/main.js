@@ -81,11 +81,9 @@ function slide(){
     if (offset >= width * (images.length - 1)) {
         offset = 0;
         counter = 1;
-        console.log(offset);
     } else {
         offset += width; 
-        counter ++;  
-        console.log(offset);         
+        counter ++;           
     }
 
     sliderLine.style.transform = `translateX(-${offset}px)`;
