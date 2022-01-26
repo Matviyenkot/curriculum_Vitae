@@ -17,7 +17,10 @@ body{
     background-color: rgba(217, 0, 255, 0.123);
     padding: 0;
     font-family: Roboto;
-    
+}
+
+.textStroke{
+    -webkit-text-stroke: 0.1px #dedede
 }
 
 main{
